@@ -1,0 +1,104 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+@layer base {
+  :root {
+    --background: 43 33% 97%;
+    --foreground: 79 21% 36%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 79 21% 36%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 79 21% 36%;
+
+    --primary: 79 21% 36%;
+    --primary-foreground: 43 33% 97%;
+
+    --secondary: 82 29% 55%;
+    --secondary-foreground: 79 21% 36%;
+
+    --muted: 82 29% 90%;
+    --muted-foreground: 79 21% 50%;
+
+    --accent: 43 100% 65%;
+    --accent-foreground: 79 21% 36%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 79 21% 80%;
+    --input: 79 21% 80%;
+    --ring: 79 21% 36%;
+
+    --radius: 0.5rem;
+  }
+
+  .dark {
+    --background: 79 21% 20%;
+    --foreground: 43 33% 97%;
+
+    --card: 79 21% 25%;
+    --card-foreground: 43 33% 97%;
+
+    --popover: 79 21% 25%;
+    --popover-foreground: 43 33% 97%;
+
+    --primary: 43 33% 97%;
+    --primary-foreground: 79 21% 36%;
+
+    --secondary: 82 29% 45%;
+    --secondary-foreground: 43 33% 97%;
+
+    --muted: 79 21% 30%;
+    --muted-foreground: 79 21% 70%;
+
+    --accent: 43 100% 55%;
+    --accent-foreground: 79 21% 36%;
+
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 43 33% 97%;
+
+    --border: 79 21% 40%;
+    --input: 79 21% 40%;
+    --ring: 43 33% 97%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+  html {
+    scroll-behavior: smooth;
+  }
+}
+
+/* Add custom styles for the typewriter cursor */
+@keyframes blink {
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+}
+
+.animate-blink {
+  animation: blink 1s step-end infinite;
+}
