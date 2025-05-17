@@ -77,13 +77,12 @@ export function HeroSection() {
             <h1 className="text-5xl md:text-7xl font-bold mb-4">Suryakala Yadav</h1>
             <div className="text-xl md:text-3xl font-light mb-4 h-12">
               <Typewriter
-                texts={["I'm a Software Developer", "I'm an AWS Professional", "I'm a Full-Stack Engineer"]}
+                texts={["I'm a Software Developer", "I'm a Web Developer", "I'm a Graphic Designer"]}
                 delay={150}
               />
             </div>
             <p className="text-lg text-white/80 mb-6 max-w-2xl">
-              Specialized in building modern web applications, cloud architecture, and DevOps solutions. With expertise
-              in AWS services and full-stack development, I create scalable and efficient solutions.
+              Software developer specializing in modern web applications and full-stack development. Focused on building scalable and efficient solutions.
             </p>
             <div className="flex flex-wrap gap-4 mb-8">
               <a
@@ -103,7 +102,7 @@ export function HeroSection() {
             </div>
             <div className="flex items-center gap-5">
               <a
-                href="https://github.com/username"
+                href="https://github.com/surya19ydv"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-white hover:text-[#FFCF50] transition-all duration-300 bg-white/10 hover:bg-white/20 p-3 rounded-full transform hover:scale-110 hover:rotate-6"
@@ -112,7 +111,7 @@ export function HeroSection() {
                 <Github size={22} />
               </a>
               <a
-                href="https://linkedin.com/in/username"
+                href="https://www.linkedin.com/in/suryakala-y-86a9171a9/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-white hover:text-[#FFCF50] transition-all duration-300 bg-white/10 hover:bg-white/20 p-3 rounded-full transform hover:scale-110 hover:rotate-6"
@@ -121,7 +120,7 @@ export function HeroSection() {
                 <Linkedin size={22} />
               </a>
               <a 
-                href="mailto:email@example.com" 
+                href="mailto:yadavsuryakala517@gmail.com" 
                 className="text-white hover:text-[#FFCF50] transition-all duration-300 bg-white/10 hover:bg-white/20 p-3 rounded-full transform hover:scale-110 hover:rotate-6"
                 aria-label="Email Contact"
               >

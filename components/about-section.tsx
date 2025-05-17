@@ -112,6 +112,10 @@ export function AboutSection() {
                     Availability
                   </h4>
                   <div className="grid grid-cols-2 gap-4">
+                  <div className="flex items-center">
+                      <div className="w-3 h-3 bg-green-500 rounded-full mr-2"></div>
+                      <span className="text-gray-700">part-time Positions</span>
+                    </div>
                     <div className="flex items-center">
                       <div className="w-3 h-3 bg-green-500 rounded-full mr-2"></div>
                       <span className="text-gray-700">Remote Work</span>
@@ -119,14 +123,6 @@ export function AboutSection() {
                     <div className="flex items-center">
                       <div className="w-3 h-3 bg-green-500 rounded-full mr-2"></div>
                       <span className="text-gray-700">Freelance Projects</span>
-                    </div>
-                    <div className="flex items-center">
-                      <div className="w-3 h-3 bg-green-500 rounded-full mr-2"></div>
-                      <span className="text-gray-700">Full-time Positions</span>
-                    </div>
-                    <div className="flex items-center">
-                      <div className="w-3 h-3 bg-green-500 rounded-full mr-2"></div>
-                      <span className="text-gray-700">Consulting</span>
                     </div>
                   </div>
                 </div>
@@ -176,30 +172,10 @@ export function AboutSection() {
                   </h4>
                   
                   <div className="space-y-6">
-                    <div>
-                      <div className="flex justify-between mb-2">
-                        <span className="font-medium text-[#626F47]">JavaScript/TypeScript</span>
-                        <span className="text-[#626F47] font-bold">90%</span>
-                      </div>
-                      <div className="w-full bg-gray-100 rounded-full h-3">
-                        <div className="bg-gradient-to-r from-[#626F47] to-[#A4B465] h-3 rounded-full" style={{ width: "90%" }}></div>
-                      </div>
-                    </div>
-                    
-                    <div>
-                      <div className="flex justify-between mb-2">
-                        <span className="font-medium text-[#626F47]">React & Next.js</span>
-                        <span className="text-[#626F47] font-bold">85%</span>
-                      </div>
-                      <div className="w-full bg-gray-100 rounded-full h-3">
-                        <div className="bg-gradient-to-r from-[#626F47] to-[#A4B465] h-3 rounded-full" style={{ width: "85%" }}></div>
-                      </div>
-                    </div>
-                    
-                    <div>
+                  <div>
                       <div className="flex justify-between mb-2">
                         <span className="font-medium text-[#626F47]">Python & Django</span>
-                        <span className="text-[#626F47] font-bold">75%</span>
+                        <span className="text-[#626F47] font-bold">85%</span>
                       </div>
                       <div className="w-full bg-gray-100 rounded-full h-3">
                         <div className="bg-gradient-to-r from-[#626F47] to-[#A4B465] h-3 rounded-full" style={{ width: "75%" }}></div>
@@ -208,8 +184,30 @@ export function AboutSection() {
                     
                     <div>
                       <div className="flex justify-between mb-2">
-                        <span className="font-medium text-[#626F47]">Database Management</span>
+                        <span className="font-medium text-[#626F47]">React & Next.js</span>
+                        <span className="text-[#626F47] font-bold">70%</span>
+                      </div>
+                      <div className="w-full bg-gray-100 rounded-full h-3">
+                        <div className="bg-gradient-to-r from-[#626F47] to-[#A4B465] h-3 rounded-full" style={{ width: "85%" }}></div>
+                      </div>
+                    </div>
+
+                    <div>
+                      <div className="flex justify-between mb-2">
+                        <span className="font-medium text-[#626F47]">AWS And Deployment</span>
                         <span className="text-[#626F47] font-bold">85%</span>
+                      </div>
+                      <div className="w-full bg-gray-100 rounded-full h-3">
+                        <div className="bg-gradient-to-r from-[#626F47] to-[#A4B465] h-3 rounded-full" style={{ width: "85%" }}></div>
+                      </div>
+                    </div>
+                    
+
+
+                    <div>
+                      <div className="flex justify-between mb-2">
+                        <span className="font-medium text-[#626F47]">Database Management</span>
+                        <span className="text-[#626F47] font-bold">80%</span>
                       </div>
                       <div className="w-full bg-gray-100 rounded-full h-3">
                         <div className="bg-gradient-to-r from-[#626F47] to-[#A4B465] h-3 rounded-full" style={{ width: "85%" }}></div>
@@ -257,16 +255,6 @@ export function AboutSection() {
                       </div>
                       <div className="w-full bg-gray-100 rounded-full h-3">
                         <div className="bg-gradient-to-r from-[#FFCF50] to-[#A4B465] h-3 rounded-full" style={{ width: "85%" }}></div>
-                      </div>
-                    </div>
-                    
-                    <div>
-                      <div className="flex justify-between mb-2">
-                        <span className="font-medium text-[#626F47]">UI/UX Design</span>
-                        <span className="text-[#626F47] font-bold">80%</span>
-                      </div>
-                      <div className="w-full bg-gray-100 rounded-full h-3">
-                        <div className="bg-gradient-to-r from-[#FFCF50] to-[#A4B465] h-3 rounded-full" style={{ width: "80%" }}></div>
                       </div>
                     </div>
                   </div>
